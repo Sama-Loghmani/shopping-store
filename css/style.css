@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+body i {
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 300px;
+}
