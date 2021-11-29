@@ -14,9 +14,26 @@ body i {
 
 .container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
 }
 
 .card img {
     width: 300px;
+}
+
+p:first-child {
+    text-align: center;
+    margin: 10px;
+}
+
+p:second-child {
+    margin-right: 7px;
 }
