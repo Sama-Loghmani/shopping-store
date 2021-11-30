@@ -11,6 +11,42 @@ body i {
     color: #000000;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list a {
+    padding: 15px;
+    margin: 10px;
+}
+
+.register {
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+.register a {
+    text-decoration: none;
+}
+
+.register i {
+    margin-right: 7px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -155,5 +191,27 @@ footer {
     font-size: 17px;
 }
 
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 640px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container h5 {
+        font-size: 17px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .media i {
+        margin: 10px;
+    }
+
+    .right-col {
+        width: 70%;
+    }
+
+    .left-col {
+        width: 70%;
+    }
 }
