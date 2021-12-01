@@ -113,6 +113,7 @@ p:first-child {
     padding: 10px;
     border-radius: 30px;
     transition: all 2s ease-in-out;
+    /* display: inline-block; */
 }
 
 .icon a i {
@@ -120,7 +121,7 @@ p:first-child {
 }
 
 .icon a:hover {
-    width: 70px;
+    width: 90px;
 }
 
 .icon a i span {
