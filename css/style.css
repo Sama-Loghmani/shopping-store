@@ -34,9 +34,12 @@ body i {
 
 .register {
     border: solid 1px #5b5b5b;
-    padding: 10px;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
-    margin: 10px 15px;
+    margin: 15px 15px;
+    padding: 7px;
+    height: 36px;
 }
 
 .register a {
@@ -107,16 +110,16 @@ p:first-child {
 .icon a {
     margin: 5px;
     background: rgb(10, 145, 46);
-    padding: 12px;
-    border-radius: 20px;
-    /* transition: transform 1s; */
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 2s ease-in-out;
 }
 
 .icon a i {
     color: #ffffff;
 }
 
-.icon a i:hover {
+.icon a:hover {
     width: 70px;
 }
 
@@ -148,6 +151,7 @@ p:first-child {
     color: #ffffff;
     padding: 5px;
 }
+
 /* footer */
 
 footer {
@@ -259,7 +263,8 @@ footer {
     }
 
     .register {
-        font-size: 12px;
+        height: 27px;
+        font-size: 13px;
         padding: 5px;
         margin-top: 0;
     }
