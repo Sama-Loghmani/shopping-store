@@ -37,7 +37,7 @@ body i {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin: 15px 15px;
+    margin: 15px 15px 10px 15px;
     padding: 7px;
     height: 36px;
 }
