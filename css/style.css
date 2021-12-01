@@ -75,7 +75,7 @@ body i {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(189, 189, 189);
-    transition: box-shadow 2s ease-out;
+    transition: box-shadow 2s;
 }
 
 .card:hover {
@@ -173,7 +173,7 @@ footer {
 }
 
 .right-col {
-    width: 35%;
+    width: 40%;
     margin-top: 40px;
 }
 
@@ -264,6 +264,7 @@ footer {
     .banner img {
         width: 100%;
         height: auto;
+        margin-top: 40px;
     }
 
     .register {
@@ -275,5 +276,11 @@ footer {
 
     .register i {
         margin-right: 2px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner img {
+        margin-top: 80px;
     }
 }
